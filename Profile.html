@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Student Profile</title>
+  <link rel="stylesheet" href="./public/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/css/site.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./public/img/me.jpeg" alt="avatar" class="rounded-circle me-2" width="40" height="40">
+        <span class="fw-bold">Steven Egas</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-primary btn-sm" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <section id="about" class="hero mb-5">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-3 text-center">
+          <img src="./public/img/me.jpeg" class="rounded-circle profile-photo shadow" alt="Steven Egas">
+        </div>
+        <div class="col-md-9">
+          <h1 class="mb-1">Steven Egas</h1>
+          <p class="lead mb-2">University student — Software engineering enthusiast, language learner, and team player.</p>
+          <p class="mb-2">I explore new technologies and build projects that push me to grow professionally and personally. I enjoy web development, AI, and collaborative teams.</p>
+          <p class="mb-2">Currently studying computer engineering at university. I'm available for internships and collaborative projects related to web development, backend services, and machine learning.</p>
+          <div class="d-flex gap-2 flex-wrap">
+            <a href="#skills" class="btn btn-outline-primary btn-sm">See skills</a>
+            <a href="#media" class="btn btn-outline-secondary btn-sm">Media</a>
+            <a href="mailto:sdegas1@espe.edu.ec" class="btn btn-primary btn-sm">Email me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="mb-5">
+      <h2 class="text-center mb-4">Interests</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="./public/img/basket.jpg" class="card-img-top" alt="Sports">
+            <div class="card-body">
+              <h5 class="card-title">Sports</h5>
+              <p class="card-text">I enjoy soccer and basketball — activities that keep me active and teach teamwork and discipline.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="./public/img/lenguaje.png" class="card-img-top" alt="Languages">
+            <div class="card-body">
+              <h5 class="card-title">Languages</h5>
+              <p class="card-text">Learning English and exploring other cultures through language and media.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="./public/img/software.jpg" class="card-img-top" alt="Software Engineering">
+            <div class="card-body">
+              <h5 class="card-title">Software Engineering</h5>
+              <p class="card-text">Passionate about web development and AI — I enjoy building solutions and learning modern stacks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="mb-5">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Technical</h5>
+          <p class="text-muted">Core programming and web development skills I use in projects.</p>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between"><small>Python</small><small>80%</small></div>
+            <div class="progress"><div class="progress-bar bg-primary" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between"><small>JavaScript</small><small>75%</small></div>
+            <div class="progress"><div class="progress-bar bg-success" role="progressbar" style="width:75%"></div></div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between"><small>C++</small><small>60%</small></div>
+            <div class="progress"><div class="progress-bar bg-info text-dark" role="progressbar" style="width:60%"></div></div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between"><small>Web (HTML/CSS/Bootstrap)</small><small>85%</small></div>
+            <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width:85%"></div></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Soft skills & Tools</h5>
+          <p class="text-muted">How I work and the tools I frequently use.</p>
+          <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item"><strong>Teamwork:</strong> Collaborate in small cross-functional teams using Git and agile practices.</li>
+            <li class="list-group-item"><strong>Problem solving:</strong> Break down problems into testable pieces and iterate quickly.</li>
+            <li class="list-group-item"><strong>Tools:</strong> Git, VS Code, Docker (basic), Jupyter</li>
+            <li class="list-group-item"><strong>Learning:</strong> Continuous learning through online courses and personal projects.</li>
+          </ul>
+          <h6 class="mt-3">Languages</h6>
+          <p>Spanish (native), English (intermediate — improving via courses and media).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="mb-5">
+      <h2 class="text-center mb-4">Media</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Favorite Tracks</h5>
+              <div class="row">
+                <div class="col-12 mb-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="./public/img/artem1.jpg" alt="track-art" class="img-thumbnail" style="width:80px;height:80px;object-fit:cover">
+                    <div class="flex-grow-1">
+                      <strong>Into The Light</strong>
+                      <div class="small text-muted">CONTRE JOUR</div>
+                      <div class="mt-2 d-flex gap-2 align-items-center">
+                        <button class="btn btn-sm btn-outline-primary audio-play" data-audio-src="./public/audio/light.mp3">Play</button>
+                        <a href="./public/audio/light.mp3" download class="btn btn-sm btn-outline-secondary">Download</a>
+                        <div class="ms-auto small text-muted audio-duration" data-src="./public/audio/light.mp3">—</div>
+                      </div>
+                      <audio preload="metadata" class="d-none"><source src="./public/audio/light.mp3" type="audio/mpeg"></audio>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 mb-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="./public/img/artea2.webp" alt="track-art" class="img-thumbnail" style="width:80px;height:80px;object-fit:cover">
+                    <div class="flex-grow-1">
+                      <strong>Cities in Dust</strong>
+                      <div class="small text-muted">Garbage</div>
+                      <div class="mt-2 d-flex gap-2 align-items-center">
+                        <button class="btn btn-sm btn-outline-primary audio-play" data-audio-src="./public/audio/garbage.mp3">Play</button>
+                        <a href="./public/audio/garbage.mp3" download class="btn btn-sm btn-outline-secondary">Download</a>
+                        <div class="ms-auto small text-muted audio-duration" data-src="./public/audio/garbage.mp3">—</div>
+                      </div>
+                      <audio preload="metadata" class="d-none"><source src="./public/audio/garbage.mp3" type="audio/mpeg"></audio>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="./public/img/museo1.jpg" alt="track-art" class="img-thumbnail" style="width:80px;height:80px;object-fit:cover">
+                    <div class="flex-grow-1">
+                      <strong>Solo tu</strong>
+                      <div class="small text-muted">Don Medardo y sus Players</div>
+                      <div class="mt-2 d-flex gap-2 align-items-center">
+                        <button class="btn btn-sm btn-outline-primary audio-play" data-audio-src="./public/audio/Don%20Medardo%20y%20sus%20Players%20%20-%20Solo%20tu.mp3">Play</button>
+                        <a href="./public/audio/Don%20Medardo%20y%20sus%20Players%20%20-%20Solo%20tu.mp3" download class="btn btn-sm btn-outline-secondary">Download</a>
+                        <div class="ms-auto small text-muted audio-duration" data-src="./public/audio/Don%20Medardo%20y%20sus%20Players%20%20-%20Solo%20tu.mp3">—</div>
+                      </div>
+                      <audio preload="metadata" class="d-none"><source src="./public/audio/Don%20Medardo%20y%20sus%20Players%20%20-%20Solo%20tu.mp3" type="audio/mpeg"></audio>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Videos</h5>
+              <video width="100%" controls class="mb-2"><source src="./public/video/garbage.mp4" type="video/mp4">Your browser does not support the video element.</video>
+              <p class="mb-1"><small class="text-muted">Garbage</small></p>
+              <video width="100%" controls><source src="./public/video/light.mp4" type="video/mp4">Your browser does not support the video element.</video>
+              <p class="mb-0"><small class="text-muted">CONTRE JOUR - Siouxsie and the Banshees</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mb-5 text-center">
+      <h2>Contact</h2>
+      <p>You can contact me via email: <a href="mailto:sdegas1@espe.edu.ec">sdegas1@espe.edu.ec</a></p>
+      <div class="d-flex justify-content-center gap-3 mt-3">
+        <a href="https://facebook.com" target="_blank" class="text-decoration-none text-muted"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="https://twitter.com" target="_blank" class="text-decoration-none text-muted"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="text-decoration-none text-muted"><i class="bi bi-linkedin fs-4"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center py-4 bg-white border-top">
+    <div class="container">
+      <p class="mb-1 small">&copy; 2023 Steven Egas — University Student.</p>
+      <small class="text-muted">Built with Bootstrap • Photos and media are local assets</small>
+    </div>
+  </footer>
+
+  <script src="./public/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+  <script>
+    // Audio card controls: allow only one playing audio at a time and show durations
+    (function(){
+      const playButtons = document.querySelectorAll('.audio-play');
+      const durations = document.querySelectorAll('.audio-duration');
+      const audios = Array.from(document.querySelectorAll('audio'));
+
+      // Map audio element by source URL
+      const audioBySrc = {};
+      audios.forEach(a => {
+        const src = a.querySelector('source')?.getAttribute('src');
+        if (src) audioBySrc[src] = a;
+      });
+
+      // Fill durations when metadata loads
+      audios.forEach(a => {
+        const src = a.querySelector('source')?.getAttribute('src');
+        const target = document.querySelector(`.audio-duration[data-src="${src}"]`);
+        if (!target) return;
+        a.addEventListener('loadedmetadata', () => {
+          const mins = Math.floor(a.duration/60);
+          const secs = Math.floor(a.duration%60).toString().padStart(2,'0');
+          target.textContent = `${mins}:${secs}`;
+        });
+      });
+
+      function pauseAllExcept(current){
+        audios.forEach(a => { if (a !== current) a.pause(); });
+      }
+
+      playButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const src = btn.getAttribute('data-audio-src');
+          const audio = audioBySrc[src];
+          if (!audio) return;
+          if (audio.paused) {
+            pauseAllExcept(audio);
+            audio.play();
+            btn.textContent = 'Pause';
+          } else {
+            audio.pause();
+            btn.textContent = 'Play';
+          }
+          // update other buttons
+          playButtons.forEach(b => {
+            if (b !== btn) b.textContent = 'Play';
+          });
+          // when audio ends, reset button
+          audio.onended = () => { btn.textContent = 'Play'; };
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
+
+
+

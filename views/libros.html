@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link rel="stylesheet" href="../public/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../public/css/site.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Perfil.html">My Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../Perfil.html#inicio">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="profesional.html">Professional</a></li>
+          <li class="nav-item"><a class="nav-link" href="arte.html">Art</a></li>
+          <li class="nav-item"><a class="nav-link" href="musica.html">Music</a></li>
+          <li class="nav-item"><a class="nav-link active" href="libros.html">Books</a></li>
+          <li class="nav-item"><a class="nav-link" href="peliculas.html">Movies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="text-white text-center py-5"><h1>Books</h1><p class="lead">Discover my favorite books</p></header>
+  <main class="container my-5"><section><h2 class="text-center text-primary">Favorite Books</h2><p class="text-center fs-5">I love reading books from different genres, from fiction novels to personal development books. Reading is a way to learn and explore new worlds.</p><ul class="list-group list-group-flush"><li class="list-group-item">"One Hundred Years of Solitude" - Gabriel García Márquez</li><li class="list-group-item">"The Little Prince" - Antoine de Saint-Exupéry</li><li class="list-group-item">"Sapiens: A Brief History of Humankind" - Yuval Noah Harari</li><li class="list-group-item">"1984" - George Orwell</li></ul><div class="text-center mt-4"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#demoModal">Launch Demo</button></div></section></main>
+  <div class="modal fade" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="demoModalLabel">Featured Books</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div id="booksCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active"><img src="../public/img/book-placeholder1.jpg" class="d-block w-100 rounded" alt="Book 1"><div class="carousel-caption d-none d-md-block"><h5>"One Hundred Years of Solitude"</h5><p>A masterpiece by Gabriel García Márquez.</p></div></div><div class="carousel-item"><img src="../public/img/book-placeholder2.jpg" class="d-block w-100 rounded" alt="Book 2"><div class="carousel-caption d-none d-md-block"><h5>"The Little Prince"</h5><p>A classic by Antoine de Saint-Exupéry.</p></div></div><div class="carousel-item"><img src="../public/img/book-placeholder3.jpg" class="d-block w-100 rounded" alt="Book 3"><div class="carousel-caption d-none d-md-block"><h5>"Sapiens: A Brief History of Humankind"</h5><p>A fascinating analysis by Yuval Noah Harari.</p></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#booksCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#booksCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div></div>
+  <footer class="text-center py-4 bg-white border-top"><div class="container"><p class="mb-1 small">&copy; 2023 Books. All rights reserved.</p></div></footer>
+  <script src="../public/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
